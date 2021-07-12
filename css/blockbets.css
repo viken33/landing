@@ -7,7 +7,7 @@ html,body
     overflow-x: hidden; 
     /* background-color: #251e35; */
 
-    background: linear-gradient(-45deg, #191325, #5b147c, #a34072);
+    background: linear-gradient(-45deg, #191325, #5b147c, #632745);
 	  background-size: 400% 400%;
 	  animation: gradient 15s ease infinite;
 }
@@ -28,6 +28,9 @@ html,body
   display: flex;
   flex-flow: column;
   height: 100%;
+  background-image: url('../images/background_outline.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50%) calc(100% + 500px);
 }
 
 .w-layout-grid {
@@ -63,9 +66,6 @@ p {
   /* background-color: #251e35; */
   color: #251e35;
   flex: 1 1 auto;
-  background-image: url('../images/background_outline.svg');
-  background-repeat: no-repeat;
-  background-position: calc(50%) calc(100% + 500px);
 }
 
 .container {
@@ -800,8 +800,9 @@ p {
 }
 
 .footer-01 {
-  padding: 80px 3%;
-  background-color: #251e35;
+  display: flex;
+  padding: 50px 3% 50px 3%;
+  background-color: transparent;
 }
 
 .footer-top {
@@ -824,6 +825,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   padding-right: 40px;
+  margin-left: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1678,6 +1680,10 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .footer-section {
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .mid-section {
