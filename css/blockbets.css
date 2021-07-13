@@ -1765,6 +1765,14 @@ p {
 }
 
 @media screen and (max-width: 479px) {
+  .main {
+    background-position: calc(50%) calc(80%);
+  }
+
+  .container {
+    margin-top: 42%;
+  }
+
   .hero-section {
     display: block;
     padding-top: 35px;
@@ -1807,7 +1815,7 @@ p {
   }
 
   .hero-heading {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .heading {
