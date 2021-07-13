@@ -5,10 +5,9 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    /* background-color: #251e35; */
-
-    background: linear-gradient(-45deg, #191325, #5b147c, #632745);
+    
 	  background-size: 400% 400%;
+    background: linear-gradient(-90deg, #1b0433, #7c00fa, #1b0433);
 	  animation: gradient 15s ease infinite;
 }
 
@@ -25,9 +24,12 @@ html,body
 }
 
 .main {
+  position: relative;
+  z-index: 1;
+  background-color: #211931;
   display: flex;
   flex-flow: column;
-  height: 100%;
+  min-height: 100vh;
   background-image: url('../images/background_outline.svg');
   background-repeat: no-repeat;
   background-position: calc(50%) calc(100% + 500px);
@@ -1684,6 +1686,10 @@ p {
 
   .footer-section {
     background-color: rgba(255, 255, 255, 0.1);
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 
   .mid-section {
