@@ -35,6 +35,26 @@ html,body
   background-position: calc(50%) calc(100% + 500px);
 }
 
+.btn {
+  width: 200px;
+  padding: 15px;
+  border: solid;
+  margin-top: 25px;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-color: #7d00fa7c;
+  border-width: thin;
+  background: linear-gradient(-90deg, #1b0433, #7d00fa7c, #1b0433);
+}
+
+.btn:hover {
+  border-color: #7d00fa;
+  background: linear-gradient(-90deg, #1b0433, #7d00fa, #1b0433);
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -65,13 +85,14 @@ p {
 .hero-section {
   min-height: 20vh;
   padding: 10vh 50px 10vh 50px;
+  text-align: -webkit-center;
   /* background-color: #251e35; */
   color: #251e35;
   flex: 1 1 auto;
 }
 
 .container {
-  margin-top: 12%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -1437,10 +1458,29 @@ p {
   box-shadow: 1px 0 11px 0 rgba(0, 0, 0, 0.22);
 }
 
+@media screen and (max-width: 1024px) {
+  .main {
+    background-position: calc(50%) calc(100% + 250px);
+  }
+
+  .btn {
+    margin-top: 120px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
+    text-align: -webkit-center;
     padding: 120px 28px 120px 46px;
     flex: 1 1 auto;
+  }
+
+  .main {
+    background-position: calc(50%) calc(100% + 250px);
+  }
+
+  .btn {
+    margin-top: 100px;
   }
 
   .button {
@@ -1618,6 +1658,7 @@ p {
 
 @media screen and (max-width: 767px) {
   .hero-section {
+    text-align: -webkit-center;
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -1766,14 +1807,20 @@ p {
 
 @media screen and (max-width: 479px) {
   .main {
-    background-position: calc(50%) calc(80%);
+    background-position: calc(50%) calc(100% + 100px);
   }
 
   .container {
     margin-top: 32%;
   }
 
+  .btn {
+    margin-top: 50px;
+    padding: 15px;
+  }
+
   .hero-section {
+    text-align: -webkit-center;
     display: block;
     padding-top: 35px;
     padding-bottom: 66px;
