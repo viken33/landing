@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+    #team {
+        padding-top: 45px;
+        color: #fff;
+    }
+    #team>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    #team>div>p {
+        margin-top: 27px;
+        font-family: Gotham-Book;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .team-oval-left {
+        position: absolute;
+        left: 0;
+        width: 23%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #team {
+        padding-top: 95px;
+        color: #fff;
+    }
+    #team>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #team>div>p {
+        margin-top: 37px;
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .team-oval-left {
+        position: absolute;
+        left: 0;
+        width: 23%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #team {
+        padding-top: 20%;
+        color: #fff;
+    }
+    #team>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 55px;
+        line-height: 70px;
+    }
+    #team>div>p {
+        margin-top: 37px;
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .team-oval-left {
+        position: absolute;
+        left: 0;
+        width: 23%;
+    }
+    .carousel {
+        position: absolute;
+        right: -30px;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-right: 120px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #team {
+        padding-top: 20%;
+        color: #fff;
+    }
+    #team>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    #team>div>p {
+        margin-top: 37px;
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .team-oval-left {
+        position: absolute;
+        left: 0;
+        width: 23%;
+    }
+    .carousel {
+        position: absolute;
+        right: -30px;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-right: 120px;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.item {
+    text-align: left;
+}
+
+.item>img {
+    height: 266px;
+    border-radius: 6px;
+}
+
+.item>h4 {
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    color: #fff;
+}
+
+.item>p {
+    font-family: Gotham-Book;
+    font-size: 13px;
+    color: #afafaf;
+    margin: 0px;
+}
+
+.owl-prev {
+    margin-left: 35px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    border-radius: 100%;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: unset;
+    box-shadow: 0 0 20px 0 rgba(29, 72, 227, 0.75);
+}

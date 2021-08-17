@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    #what-others-say {
+        padding-top: 45px;
+        color: #fff;
+    }
+    #what-others-say>.block-data>h1 {
+        font-family: Gotham-Medium;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom:35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #what-others-say {
+        padding-top: 12%;
+        color: #fff;
+    }
+    #what-others-say>.block-data>h1 {
+        font-family: Gotham-Medium;
+        font-size: 55px;
+        line-height: 70px;
+        padding-bottom:35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #what-others-say {
+        padding-top: 12%;
+        color: #fff;
+    }
+    #what-others-say>.block-data>h1 {
+        font-family: Gotham-Medium;
+        font-size: 50px;
+        line-height: 70px;
+        margin-top: 0px!important;
+    }
+    #what-others-say>.block-data>p {
+        margin-top: 27px;
+        font-family: Gotham-Book;
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #what-others-say {
+        padding-top: 12%;
+        color: #fff;
+    }
+    #what-others-say>.block-data>h1 {
+        font-family: Gotham-Medium;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    #what-others-say>.block-data>p {
+        margin-top: 37px;
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+.block-wos>img{
+    width: 100%;
+    margin-bottom: 10px;       
+}
+.block-wos>h4{
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    color:#fff;
+}
+.block-wos>p{
+    font-family: Gotham-Book;
+    font-size: 14px;
+    line-height: 19px;
+    color:#ebebf599;
+}

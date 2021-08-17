@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    #backed-by {
+        padding-top: 45px;
+    }
+    #backed-by>div>p{
+        font-family: Gotham-Book;
+        font-size: 18px;
+        line-height: 32px;
+        color:#fff;
+        opacity: 0.6;
+    }
+    .logo-backed-by{
+        height: 30px;
+        width: auto;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #backed-by {
+        padding-top: 14%;
+    }
+    #backed-by>div>p{
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+        color:#fff;
+        opacity: 0.6;
+    }
+    .logo-backed-by{
+        height: 59px;
+        width: auto;
+        margin-left: 97px;
+    }
+}
+
+@media (min-width: 992px) {
+    #backed-by {
+        padding-top: 14%;
+    }
+    #backed-by>div>p{
+        font-family: Gotham-Book;
+        font-size: 22px;
+        line-height: 32px;
+        color:#fff;
+        opacity: 0.6;
+    }
+    .logo-backed-by{
+        height: 59px;
+        width: auto;
+        margin-left: 97px;
+    }
+
+}

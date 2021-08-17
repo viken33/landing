@@ -1,0 +1,101 @@
+@media (max-width: 991px) {
+    #mySidenav > .closebtn {
+        font-size: 36px !important;
+    }
+    #navbar {
+        display: none;
+    }
+    #navbar-mobile {
+        background-color: transparent;
+        padding: 30px 0 60px 0;
+        border: none !important;
+        border-radius: 0 !important;
+        width: 100%;
+    }
+    #navbar-mobile > .container {
+        padding: 0 30px !important;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: #0a0611;
+        overflow-x: hidden;
+        transition: none;
+        padding-top: 60px;
+    }
+    .sidenav a, .sidenav>img {
+        padding: 8px 8px 8px 30px;
+        text-decoration: none;
+        font-size: 25px;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 23px;
+        font-size: 36px !important;
+        margin-left: 50px;
+        color:#fff;
+    }
+    .closebtn:hover {
+        text-decoration: none;
+    }
+    .fa-bars {
+        color: #fff;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    .logo-mobile {
+        width: 75%;
+        margin-bottom: 10%;
+    }
+    #mySidenav > ul {
+        padding-left: 0;
+    }
+    #mySidenav >ul> a {
+        font-family: Gotham-Medium;
+        color: #fff;
+        font-size: 13px !important;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+@media (min-width:991px) {
+    .navbar {
+        background-color: transparent;
+        padding-top: 43px;
+        padding-bottom:100px;
+        font-family: Gotham-Medium;
+    }
+    .navbar-right{
+        margin-right: 0px;
+    }
+    .navbar-right>a{
+        color:#fff;
+        font-size: 14px;
+        line-height: 32px;
+        margin-left: 60px;
+    }
+    .navbar-right>a:hover{
+        text-decoration: none;
+    }
+    .btn-menu{
+        border-radius: 8px;
+        padding:10px 32px;
+        background-image: linear-gradient(to right,#7c00fa, #3966f6);
+    }
+    .btn-menu:hover{
+        box-shadow: 0 0 20px 0 rgba(29, 72, 227, 0.75);
+    }
+}

@@ -1,0 +1,277 @@
+@media (max-width: 768px) {
+    #get-app {
+        padding-top: 45px;
+        color: #fff;
+    }
+    #get-app>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom: 59px;
+    }
+    #get-app>div>p {
+        font-family: Gotham-Book;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 64px;
+    }
+    #get-app>div>h1>span {
+        font-size: 16px;
+        font-family: Gotham-Book;
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #get-app {
+        padding-top: 95px;
+        color: #fff;
+    }
+    #get-app>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 55px;
+        line-height: 65px;
+    }
+    #get-app>div>p {
+        font-family: Gotham-Book;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #get-app {
+        padding-top: 14%;
+        color: #fff;
+    }
+    #get-app>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 55px;
+        line-height: 65px;
+    }
+    #get-app>div>p {
+        font-family: Gotham-Book;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 64px;
+    }
+    #get-app>div>p>span {
+        float: right;
+    }
+    #get-app>div>p>span>a>img {
+        padding-left: 32px;
+    }
+    .oval-get-app-bottom {
+        position: absolute;
+        left: 0px;
+        width: 70%;
+        z-index: -1;
+    }
+    .oval-get-app-right {
+        position: absolute;
+        right: 0;
+        margin-top: 16%;
+        width: 27%;
+        z-index: -1;
+    }
+    .block-get-app {
+        border-radius: 24px;
+        background-color: black;
+        padding: 0px 0px 50px 0px;
+    }
+    .block-get-app>img {
+        width: 100%;
+    }
+    .block-get-app>h4 {
+        padding: 16px 24px 0px 24px;
+        font-family: Gotham-Medium;
+        font-size: 26px;
+        line-height: 30px;
+        color: #fff;
+    }
+    .block-get-app>p {
+        padding: 0px 24px;
+        font-family: Gotham-Book;
+        font-size: 15px;
+        line-height: 30px;
+        color: #afafaf;
+        margin-bottom: 0px;
+    }
+    .label-state {
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 1.4px;
+        font-family: Gotham-Thin;
+        padding: 8px 20px;
+        border-radius: 6px;
+        left: unset!important;
+        position: absolute;
+    }
+    .circle-left-get-app{
+        position: absolute;
+        width: 25%;
+        left: 23%;
+        z-index: -1;
+        margin-top:40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #get-app {
+        padding-top: 10%;
+        color: #fff;
+    }
+    #get-app>div>h1 {
+        font-family: Gotham-Medium;
+        font-size: 55px;
+        line-height: 65px;
+    }
+    #get-app>div>p {
+        font-family: Gotham-Book;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 64px;
+    }
+    .oval-get-app-bottom {
+        position: absolute;
+        left: 0px;
+        width: 70%;
+        z-index: -1;
+    }
+    .oval-get-app-right {
+        position: absolute;
+        right: 0;
+        margin-top: 16%;
+        width: 27%;
+        z-index: -1;
+    }
+    .circle-left-get-app{
+        position: absolute;
+        width: 25%;
+        left: 26%;
+        z-index: -1;
+        margin-top:20%;
+    }
+}
+#get-app>div>p>a {
+    color:#fff;
+}
+#get-app>div>p>a:hover {
+    text-decoration:none;
+}
+#get-app>div>p>a>span {
+    float: right;
+}
+
+#get-app>div>p>a>span>img {
+    padding-left: 32px;
+}
+
+.block-get-app {
+    border-radius: 24px;
+    background-color: black;
+    padding: 0px 0px 50px 0px;
+}
+.block-get-app:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(29, 72, 227, 0.75);
+}
+
+.block-get-app>img {
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.block-get-app>h4 {
+    padding: 16px 24px 0px 24px;
+    font-family: Gotham-Medium;
+    font-size: 21px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.block-get-app>p {
+    padding: 0px 24px;
+    font-family: Gotham-Book;
+    font-size: 15px;
+    line-height: 24px;
+    color: #afafaf;
+    margin-bottom: 0px;
+}
+
+.label-state {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1.4px;
+    font-family: Gotham-Thin;
+    padding: 8px 20px;
+    border-radius: 6px;
+    left: unset!important;
+    position: absolute;
+}
+
+.last {
+    right: 40px;
+}
+
+.first {
+    right: 125px;
+}
+
+.pending {
+    background-color: #3c3c3c;
+}
+
+.played {
+    background-color: #3c3c3c;
+}
+
+.won {
+    background: #7c00fa;
+    background: -moz-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c00fa), color-stop(100%, #269cc1));
+    background: -webkit-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -o-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -ms-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: linear-gradient(to right, #7c00fa 0%, #269cc1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c00fa', endColorstr='#269cc1', GradientType=1);
+}
+
+.lost {
+    background-color: transparent;
+    border: none;
+    border-radius: 99px;
+    z-index: 1;
+}
+.lost:before, .lost:after {
+    content: ' ';
+    position: absolute;
+    border-radius: 6px;
+}
+.lost:before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    background: #7c00fa;
+    background: -moz-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c00fa), color-stop(100%, #269cc1));
+    background: -webkit-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -o-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: -ms-linear-gradient(left, #7c00fa 0%, #269cc1 100%);
+    background: linear-gradient(to right, #7c00fa 0%, #269cc1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c00fa', endColorstr='#269cc1', GradientType=1);
+}
+.lost:after {
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    background-color: black;
+    z-index: -1;
+    opacity: 1;
+    transition: all 0.6s ease-in-out;
+}

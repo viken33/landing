@@ -1,56 +1,229 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Blockbets - </title>
-  <meta property="og:type" content="website">
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/components.css" rel="stylesheet" type="text/css">
-  <link href="css/blockbets.css" rel="stylesheet" type="text/css">
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.svg" rel="apple-touch-icon">
+    <meta charset="utf-8">
+    <title>Blockbets | Find your game tournament here</title>
+    <link rel="icon" href="./resources/images/favicon.ico">
+    <meta property="keywords" content="games, bets, challenges, tournament, e-sports">
+    <meta name="title" content="Blockbets | Find your game tournament here" />
+    <meta name="description" content="A gaming platform for skill-based bets & challenges, improve your skills playing 
+        e-sports games and win prizes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./resources/images/blockbets-meta-image.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Blockbets | Find your game tournament here">
+    <meta name="twitter:description" content="A gaming platform for skill-based bets & challenges, improve your skills playing 
+        e-sports games and win prizes.">
+    <meta name="twitter:image" content="./resources/images/blockbets-meta-image.jpg">
+    <link rel="stylesheet" type="text/css" href="./resources/libraries/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/libraries/css/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css"
+        href="./resources/libraries/css/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="./resources/libraries/css/owl/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/home.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/team.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/get-app.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/backed-by.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/what-others-say.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/find-game.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/footer.css">
 </head>
+
 <body>
-  <div class="main">
-    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
-      <div class="nav-container w-container">
-        <img src="images/logo.svg" alt="logo" class="image-2">
-      </div>
-    </div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="min-navbar w-nav">
-      <div class="nav-container w-container">
-        <a href="#" class="w-nav-brand"><img src="images/logo.svg" alt="logo" class="image-2"></a>
-      </div>
-    </div>
-    <div class="hero-section">
-      <div class="container">
-        <span class="hero-heading">A gaming platform for skill-based challenges & tournaments, improve your skills playing esports games, and win prizes.</span>
-      </div>
-      
-      <a href="http://eepurl.com/hDL6T5" style="text-decoration: none;"><div class="btn">EARLY ACCESS</div></a>
-      
-    </div>
-    
-  </div>
-  <div class="footer-section" style="background-color: rgba(255, 255, 255, 0.1);
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    width: 100%;">
-    <div class="footer-01">
-      <img src="images/bb-iso-outline-white-500px-svg.svg" style="width: 200px;"/>
-      <div class="footer-column">
-        <div class="footer-title">Join Us</div>
-        <a href="https://www.twitter.com/blockbets_gg" target="_blank" class="footer-link">Twitter</a>
-        <a href="https://discord.gg/nGyyDbW4" target="_blank" class="footer-link">Discord</a>
-        <a href="https://www.linkedin.com/company/blockbets/" target="_blank" class="footer-link">LinkedIn</a>
-      </div>
-      
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    <section id="home" class="container-fluid">
+        <nav id="navbar" class="navbar hidden-sm hidden-xs">
+            <div class="container">
+                <img alt="Blockbets Logo" class="logo" src="./resources/images/logo.svg" />
+                <ul class="navbar-right">
+                    <a class="scroll" href="#home">Home</a>
+                    <a class="scroll" href="#team">Team</a>
+                    <a class="scroll" href="#get-app">Get app</a>
+                    <a class="scroll btn-menu" target="_blank" href="https://blockbets.us6.list-manage.com/subscribe?u=da66152585897d4afc161b6de&id=9daee0be6d">Early access</a>
+                </ul>
+            </div>
+        </nav>
+        <nav id="navbar-mobile" class="navbar hidden-lg hidden-md">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <img alt="Blockbets Logo" class="logo-mobile" src="./resources/images/logo.svg" />
+                <ul>
+                    <a class="scroll" href="#home">Home</a>
+                    <a class="scroll" href="#team">Team</a>
+                    <a class="scroll" href="#get-app">Get app</a>
+                    <a class="scroll " target="_blank" href="https://blockbets.us6.list-manage.com/subscribe?u=da66152585897d4afc161b6de&id=9daee0be6d">Early access</a>
+                </ul>
+            </div>
+            <div class="container">
+                <i onclick="openNav()" class="open-nav fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="container c-home">
+            <img class="home-oval-left" src="./resources/images/home-oval-left.png">
+            <img class="home-oval-left-bottom" src="./resources/images/home-oval-left-bottom.png">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img alt="Blockbets Logo" class="logo hidden-lg hidden-md" src="./resources/images/logo.svg" />
+                <h1>Find your game tournament here!</h1>
+                <p>A gaming platform for skill-based bets & challenges, improve your skills playing e-sports games and
+                    win
+                    prizes.</p>
+                <a href="https://discord.gg/2WTXhcTs" target="_blank"><button>Discord</button></a>
+                <img class="home-illustration hidden-lg hidden-md" src="./resources/images/home.png">
+            </div>
+            <img class="home-illustration hidden-xs hidden-sm" src="./resources/images/home.png">
+            <img class="bottom-shadow" src="./resources/images/home-bottom-shadow.png">
+        </div>
+    </section>
+    <section id="team" class="container">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h1>Find your game tournament here!</h1>
+            <p>Join us on our open beta, register now and secure over 100 tournament & event</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./resources/images/item-carousel-1.png">
+                    <h4>Call of Duty : Warzone</h4>
+                    <p>Action Games</p>
+                    <p>Xbox- Playstation - PC</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/images/item-carousel-2.png">
+                    <h4>Call of Duty : Warzone</h4>
+                    <p>Action Games</p>
+                    <p>Xbox- Playstation - PC</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/images/item-carousel-3.png">
+                    <h4>Call of Duty : Warzone</h4>
+                    <p>Action Games</p>
+                    <p>Xbox- Playstation - PC</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/images/item-carousel-2.png">
+                    <h4>Call of Duty : Warzone</h4>
+                    <p>Action Games</p>
+                    <p>Xbox- Playstation - PC</p>
+                </div>
+            </div>
+        </div>
+        <img class="team-oval-left" src="./resources/images/team-oval-left.png">
+    </section>
+    <section id="get-app" class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="hidden-xs hidden-sm">Improve your skills</h1>
+            <p class="hidden-xs hidden-sm">Join us on our open beta, register <a class="scroll"
+                    href="#team"><span>Challenge <img alt="" src="./resources/images/right-arrow.svg"></span></a></p>
+
+            <h1 class="hidden-lg hidden-md">Improve <br> your skills <a class="scroll" href="#team"><span>Challenge<img
+                            alt="" src="./resources/images/right-arrow.svg"></span></a>
+            </h1>
+            <div class="row">
+                <a href="#">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="block-get-app">
+                            <img alt="" src="./resources/images/skills-block.png">
+                            <h4>Call of Duty : Warzone</h4>
+                            <p>Challange ID : x0987XS</p>
+                            <p>Opponent : rockyboy#2976</p>
+                            <p>Amount : $198</p>
+                            <label class="label-state last pending">PENDING</label>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="block-get-app hidden-xs">
+                            <img alt="" src="./resources/images/skills-block.png">
+                            <h4>Call of Duty : Warzone</h4>
+                            <p>Challange ID : x0987XS</p>
+                            <p>Opponent : rockyboy#2976</p>
+                            <p>Amount : $198</p>
+                            <label class="label-state first played">PLAYED</label> <label
+                                class="label-state last won">WON</label>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 hidden-sm hidden-xs">
+                        <div class="block-get-app">
+                            <img alt="" src="./resources/images/skills-block.png">
+                            <h4>Call of Duty : Warzone</h4>
+                            <p>Challange ID : x0987XS</p>
+                            <p>Opponent : rockyboy#2976</p>
+                            <p>Amount : $198</p>
+                            <label class="label-state first played">PLAYED</label><label
+                                class="label-state last lost">LOST</label>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <img alt="" class="circle-left-get-app hidden-xs hidden-sm" src="./resources/images/circle-left-get-app.png">
+        <img alt="" class="oval-get-app-bottom hidden-xs hidden-sm" src="./resources/images/oval-get-app-bottom.png">
+        <img alt="" class="oval-get-app-right hidden-xs hidden-sm" src="./resources/images/oval-get-app-right.png">
+    </section>
+    <section id="what-others-say" class="container">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 block-data">
+            <h1>What others say</h1>
+            <p class="hidden-xs hidden-sm">Join us on our open beta, register now and secure over 100 tournament & event
+            </p>
+        </div>
+        <div class="col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-6 col-xs-12 block-wos">
+            <img src="./resources/images/what-others-say-boy.png" alt="">
+            <h4>Call of Duty</h4>
+            <p>A gaming platform for skill-based bets & challenges, improve your skills playing e-sports games and win
+                prizes.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 block-wos">
+            <img src="./resources/images/what-others-say-girl.png" alt="">
+            <h4>Call of Duty</h4>
+            <p>A gaming platform for skill-based bets & challenges, improve your skills playing e-sports games and win
+                prizes.</p>
+        </div>
+    </section>
+    <section id="backed-by" class="container">
+        <div class="col-lg-12 text-center">
+            <p>Backed by: <img class="logo-backed-by" src="./resources/images/consensys.png"> <img
+                    class="logo-backed-by" src="./resources/images/tachyon.png"></p>
+        </div>
+    </section>
+    <section id="find-game" class="container-fluid">
+        <div class="circle hidden-sm hidden-xs"></div>
+        <div class="container">
+            <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
+                <h1>Find your game tournament here!</h1>
+                <p>Join us on our open beta, register now and secure over 100 tournament & event</p>
+            </div>
+            <img class="illustration-find-game hidden-xs hidden-sm" src="./resources/images/find-your-game.png">
+        </div>
+        <img class="illustration-find-game hidden-lg hidden-md" src="./resources/images/find-your-game.png">
+        <img class="bg-find-game-right hidden-sm hidden-xs" src="./resources/images/illustration-find-game-right.png">
+        <img class="bg-find-game-left" src="./resources/images/illustration-find-game-left.png">
+    </section>
+    <section id="footer" class="container">
+        <img alt="Blockbets Logo" class="logo-footer" src="./resources/images/logo.svg" />
+        <ul class="navbar-right">
+            <a class="link hidden-xs hidden-sm scroll" href="#home">Home</a>
+            <a class="link hidden-xs hidden-sm scroll" href="#team">Team</a>
+            <a class="link last hidden-xs hidden-sm scroll" href="#get-app">Get app</a>
+            <a href="https://discord.gg/2WTXhcTs" target="_blank"><img src="./resources/images/discord.svg"></a>
+            <a href="https://twitter.com/blockbets_gg" target="_blank"><img src="./resources/images/twitter.svg"></a>
+            <a href="https://www.linkedin.com/company/blockbets" target="_blank"><img src="./resources/images/linkedin-icon.svg"></a>
+        </ul>
+        <p>blockbets © 2021</p>
+    </section>
+    <script type="text/javascript" src="./resources/libraries/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript"
+        src="./resources/libraries/css/owl/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./resources/scripts/functions.js"></script>
 </body>
+
 </html>
