@@ -107,6 +107,7 @@
         border-radius: 6px;
         left: unset!important;
         position: absolute;
+        margin-top: 5px;
     }
     .circle-left-get-app{
         position: absolute;
@@ -210,6 +211,7 @@
     border-radius: 6px;
     left: unset!important;
     position: absolute;
+    margin-top: 5px;
 }
 
 .last {
