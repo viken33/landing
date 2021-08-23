@@ -2,3 +2,14 @@ body {
     background-color: #180042;
     background-image: radial-gradient(circle at 30% 50%, #180042, #0a0611 178%) !important;
 }
+@media(min-width:1650px) {
+    .container {
+        width: auto !important;
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+    }
+    #footer {
+        width: 100% !important;
+        margin: auto !important;
+    }
+}
