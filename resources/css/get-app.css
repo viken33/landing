@@ -20,6 +20,13 @@
         font-family: Gotham-Book;
         float: right;
     }
+    .last {
+        right: 30px;
+    }
+    
+    .first {
+        right: 110px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -37,6 +44,13 @@
         font-size: 18px;
         line-height: 32px;
         margin-bottom: 64px;
+    }
+    .last {
+        right: 30px;
+    }
+    
+    .first {
+        right: 110px;
     }
 }
 
@@ -67,6 +81,13 @@
         left: 0px;
         width: 70%;
         z-index: -1;
+    }
+    .last {
+        right: 30px;
+    }
+    
+    .first {
+        right: 110px;
     }
     .oval-get-app-right {
         position: absolute;
@@ -133,6 +154,13 @@
         font-size: 18px;
         line-height: 32px;
         margin-bottom: 64px;
+    }
+    .last {
+        right: 0px;
+    }
+    
+    .first {
+        right: 110px;
     }
     .oval-get-app-bottom {
         position: absolute;
@@ -214,13 +242,7 @@
     margin-top: 5px;
 }
 
-.last {
-    right: 40px;
-}
 
-.first {
-    right: 125px;
-}
 
 .pending {
     background-color: #3c3c3c;
