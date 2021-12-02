@@ -1,6 +1,5 @@
----
 redirect_to: "https://blast.gg"
----
+
 
 
 ## Welcome to GitHub Pages
